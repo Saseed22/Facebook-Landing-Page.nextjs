@@ -1,6 +1,7 @@
 import Feed from '@/components/Feed';
 import Header from '@/components/Header'
 import Login from '@/components/Login';
+import Menubar from '@/components/Menubar';
 import SideBar from '@/components/SideBar';
 import Head from 'next/head'
 
@@ -16,11 +17,10 @@ export default function Home({ session }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main className="flex">
+      <main className="flex ">
         <SideBar />
-        <Feed
-          // posts={posts}
-        />
+        <Feed/>
+        <Menubar/>
       </main>
     </div>
   )

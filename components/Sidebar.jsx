@@ -12,7 +12,7 @@ import SidebarRow from "./SidebarRow";
 const SideBar = () => {
 //   const [session, loading] = useSession();
   return (
-    <div className="p-2 mt-5 max-w-[600px] lg:min-w-[300px]:">
+    <div className="p-2 mt-5 max-w-[600px] lg:min-w-[300px]">
       <SidebarRow Icon={ImUsers} title="Friends" />
       <SidebarRow Icon={AiOutlineUsergroupAdd} title="Groups" />
       <SidebarRow Icon={AiFillShopping} title="Marketplace" />

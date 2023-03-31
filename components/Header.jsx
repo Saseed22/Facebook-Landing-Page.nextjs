@@ -37,14 +37,12 @@ const Header = () => {
       <div className="flex items-center justify-end sm:space-x-2">
       <Image
           onClick={() => signOut()}
-          className="rounded-full cursor-pointer"
-          // src={session.user.image}
-          width="40"
-          height="40"
-          layout="fixed"
+          className="rounded-full cursor-pointer mx-2"
+          src="https://avatars.githubusercontent.com/u/111841581?v=4"
+          width="30"
+          height="30"
         />
         <p className="font-semibold pr-3 whitespace-nowrap">
-          {/* {session.user.name} */}
           Saeed Ahmadi
         </p>
         <BsFillGridFill className="icon"/>
