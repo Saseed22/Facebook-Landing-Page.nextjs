@@ -3,17 +3,20 @@ import { BsFacebook, BsSearch, BsFlagFill,BsBellFill,BsChatDotsFill,BsChevronDow
 import { AiFillHome, AiFillPlayCircle, AiFillShopping } from "react-icons/ai";
 import { MdGroups } from "react-icons/md";
 import HeaderIcon from "./HeaderIcon";
-// import{singOut,useSession} from "next-auth/client"
+import Link from "next/link";
+
 
 const Header = () => {
 
-  // const [session]=useSession()
+
 
 
   return (
     <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       <div className="flex items-center gap-x-2">
+        <Link href="/login">
         <BsFacebook size={40} className="text-blue-700 cursor-pointer" />
+        </Link>
         <div className="flex items-center gap-x-1 bg-gray-100 p-2 rounded-full">
           <BsSearch className="text-gray-600" />
           <input

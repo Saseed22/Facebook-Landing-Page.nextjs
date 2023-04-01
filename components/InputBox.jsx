@@ -1,13 +1,10 @@
 import { HiEmojiHappy } from "react-icons/hi";
 import { BsCameraFill, BsFillCameraReelsFill } from "react-icons/bs";
-// import { useSession } from "next-auth/client";
 import { useRef, useState } from "react";
-// import { db, storage } from "../firebase";
-// import firebase from "firebase";
 import Image from "next/image";
 
 function InputBox() {
-//   const [session] = useSession();
+
   const inputRef = useRef(null);
   const [imageToPost, setImageToPost] = useState(null);
   const filepickerRef = useRef(null);

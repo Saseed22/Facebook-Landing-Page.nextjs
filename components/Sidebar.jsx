@@ -1,5 +1,4 @@
 import React from "react";
-// import { useSession } from "next-auth/client";
 import { BsChevronDown, BsCalendarDate, BsClock } from "react-icons/bs";
 import {
   AiFillShopping,
@@ -10,7 +9,7 @@ import { ImUsers } from "react-icons/im";
 import SidebarRow from "./SidebarRow";
 
 const SideBar = () => {
-//   const [session, loading] = useSession();
+
   return (
     <div className="p-2 mt-5 max-w-[600px] lg:min-w-[300px]">
       <SidebarRow Icon={ImUsers} title="Friends" />

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-// import {SignIn} from "next-auth/client"
+
 
 const Login = () => {
   return (
-    <div className="grid place-items-center">
+    <div className="grid place-items-center mt-10">
       <Image
         src="https://links.papareact.com/t4i"
         height={400}
@@ -12,8 +12,8 @@ const Login = () => {
         className="object-contain mb-5"
       />
       <h1
-        //   onClick={SignIn}
-        className="p-5 bg-blue-500 text-white text-center rounded-full cursor-pointer"
+        
+        className="p-5 bg-blue-500 text-white text-center lg:w-1/2 lg:text-2xl rounded-full cursor-pointer"
       >
         Login with Facebook
       </h1>
